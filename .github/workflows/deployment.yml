@@ -1,6 +1,6 @@
 name: Deploy
 on: [push, workflow_dispatch]
-job:
+jobsgit :
   test:
     runs-on: ubuntu-latest
     steps:
